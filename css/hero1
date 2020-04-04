@@ -1,11 +1,10 @@
 html,body{
-	background-color: grey;
 	font-family: Arial,sans-serif;
 	padding: 0;
 	margin: 0;
 }
 header{
-	background-color: white;
+	background-color: #8E817E;
 	padding: 40px;
 	text-align: center;
 
@@ -20,7 +19,6 @@ header img{
 	border-radius: 150px;
 	width: 300px;
 	border:11px solid #BA7E45;
-	filter: drop-shadow(10px 10px 1px #000);
 }
 
 .content{
@@ -47,12 +45,8 @@ ul{
 
 }
 a{
-	background*color: #7385EB;
 	color: pink;
 	text-decoration: none;
-}
-a:hover{
-	background-color: #2A315E;
 }
 footer{
 	padding: 40px 20px;
