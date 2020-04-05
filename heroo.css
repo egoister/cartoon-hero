@@ -7,6 +7,13 @@ html,body{
 
 }
 header{
+	width: 50px; 
+	height:auto; 
+	padding: 20px; 
+	border: 5px solid #E07FAA;
+    background: #333333; 
+
+
 	background-color: white;
 	padding: 20px;
 	text-align: center;
@@ -21,12 +28,17 @@ h1{
 	color:#000000; 
 }
 header img{
-	border-radius: 150px;
-	width: 140px;
-	border:6px dotted #000000;
-	filter: drop-shadow(10px 10px 9px #000);
-	border: {color:decorative square 3};
+
+		width: 150px; 
+	height: 150px; 
+	border-radius: 50%; 
+	background-size: cover; 
+
+	
 }
+
+.img-db {
+
 
 .content{
 	background-color: pink;

@@ -1,0 +1,17 @@
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+<style>
+.basicboxx {width: 350px; height: 400px; border: 1px solid #000000; margin: auto;  background-image: url(http://www.themesltd.com/backgrounds/black-and-white/black_brick_wall.jpg);
+}  
+.whiteboxx {width: 250px; height: 280px; background: #ffffff; overflow: auto; margin: auto; padding: 10px; position: relative; top: 20px; text-align: justify; font-family: montserrat; font-size: 10px; line-height: 200%;}
+.titleheader { font-family: montserrat; color: #000; font-size: 35px; z-index: 9999; position: relative; top: 10px; text-align: center;}
+</style>
+<div class="basicboxx">
+<div class="titleheader">sweet like candy</div>
+  <div class="whiteboxx">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut lacus tempus diam vestibulum venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi pretium luctus quam, cursus blandit justo ultrices at. Fusce et velit eget libero lobortis aliquam. Aenean lectus dolor, imperdiet et lacus vel, eleifend cursus nunc. Donec a ante pharetra, mollis ipsum ac, rutrum quam. Donec sodales in mi posuere venenatis. Suspendisse elementum vehicula efficitur. Donec tristique mauris ac erat mollis convallis. Integer dictum justo quis tortor mattis, quis dictum felis tristique. Phasellus nec gravida neque, sit amet tincidunt dolor. Nunc vitae elit ut leo pulvinar scelerisque at at sem.
+  </div>
+  
+  
+  
+</div>

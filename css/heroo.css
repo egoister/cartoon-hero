@@ -1,0 +1,143 @@
+/*----------scrollbar---------*/
+
+ ::-webkit-scrollbar-thumb {
+    height:auto;
+    background-color:transparent;
+    border-radius:20px;
+    }
+    ::-webkit-scrollbar {
+    height:7px;
+    width:3px;
+    background-color: transparent;
+    border-radius:50px;
+    }
+
+
+html,body{
+    background-color: grey;
+    font-family: Consolas;
+    padding: 0;
+    margin: 0;
+
+
+}
+header{
+    
+    border: 3px solid #000000;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive; 
+    
+    font-size: 15px;  
+    text-transform: uppercase;  color: white;
+    padding: 5px;  
+    font-weight: bold;  
+    text-align: center;  
+    letter-spacing: 3px;
+
+    
+    overflow: auto; 
+
+    /*--padding is space inside elements of header*/
+}
+h1{
+    
+        background:#000000; 
+
+    font-size: 15px;  
+    text-transform: uppercase;  color: white;
+    padding: 2px;  
+    font-weight: bold;  
+    text-align: center;  
+    letter-spacing: 3px; 
+
+    font-family: 'Amatic SC', cursive; 
+    font-size:30px;
+    color:#FFFFFF; 
+}
+header img{
+    width: 150px; 
+    border: 15px dotted;
+    border-radius: 50%; 
+    background-size: cover; 
+    filter: drop-shadow(10px 10px 9px pink);
+}
+    
+
+
+.content{
+    /*ako se dira margina pomjeri se*/
+    margin: 0 auto;
+    padding-left: 20px;  
+    padding-right: 20px; 
+    padding-top: 5px;  color: #a0a0a0;   
+
+    border: 5px solid #000000;
+    background: #333333; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    width: 600px; 
+    width: 350px; 
+    height:auto; 
+    border: 5px solid #E07FAA;
+    background: #333333; 
+
+
+}
+
+
+
+
+
+/*
+
+/* tri slike (use 25% for four, and 50% for two, etc) */
+
+
+/* end tri slike */
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+a{
+    background*color: #7385EB;
+    color: pink;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #2A315E;
+}
+footer{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border: 5px, black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 11px;
+}
+
+
+.fa {
+ padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.footer-social { float: right; margin-top:5px;}
+.footer-social li { display: inline;}
+.footer-social span { margin-top: -20px;}
+   
+
+
+
