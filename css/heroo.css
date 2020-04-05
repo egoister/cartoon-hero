@@ -13,54 +13,64 @@
     }
 
 
-html,body{
+.html,body{
     background-color: grey;
     font-family: Consolas;
-    padding: 0;
-    margin: 0;
-
+width: 100%;
+height:100%;
+  margin:0;
+  padding:0;
+   position: relative;
+  min-height: 100%;
 
 }
 header{
     
-    border: 3px solid #000000;
-    background-color: white;
-    padding: 20px;
-    text-align: center;
-    font-family: 'Amatic SC', cursive; 
-    
+    background-color: pink;
+    padding: 5px;
+    font-family: 'Consolas', cursive; 
     font-size: 15px;  
-    text-transform: uppercase;  color: white;
-    padding: 5px;  
+    text-transform: uppercase;  color: white; 
     font-weight: bold;  
-    text-align: center;  
+    text-align: left;  
     letter-spacing: 3px;
+    width: 500;
+    height: 300;
+     overflow: auto; 
+     border-bottom: 1px solid #000;
+    border: 3px solid #pink;
 
-    
-    overflow: auto; 
+    }
 
-    /*--padding is space inside elements of header*/
+.header span { 
+    style="display:inline 
+  float: right;
+
 }
-h1{
-    
-        background:#000000; 
 
-    font-size: 15px;  
+.header img{
+    width: 150px; 
+    border: 15px ;
+    position: left;
+     overflow: auto; 
+}
+.h1{
+    background:#000000; 
     text-transform: uppercase;  color: white;
     padding: 2px;  
     font-weight: bold;  
-    text-align: center;  
+    text-align: left;  
     letter-spacing: 3px; 
 
     font-family: 'Amatic SC', cursive; 
     font-size:30px;
-    color:#FFFFFF; 
+    color:#FFFFFF; }
+
 }
 
-h3{
-    
-        background:#000000; 
 
+.h3{
+     background:#000000; 
     font-size: 10px;  
     text-transform: uppercase;  color: white;
     padding: 2px;  
@@ -72,14 +82,9 @@ h3{
     font-size:30px;
     color:pink; 
 }
-header img{
-    width: 150px; 
-    border: 15px dotted;
-    border-radius: 50%; 
-    background-size: cover; 
-    filter: drop-shadow(10px 10px 9px pink);
-}
-    
+
+
+
 
 
 .content{
@@ -87,50 +92,70 @@ header img{
     margin: 0 auto;
     padding-left: 20px;  
     padding-right: 20px; 
-    padding-top: 5px;  color: #a0a0a0;   
+    padding-top: 5px;  color: #pink;   
 
-    border: 5px solid #000000;
-    background: #333333; 
+    border: 3px solid #000000;
+    background: #pink; 
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
-    width: 600px; 
-    width: 350px; 
-    height:auto; 
-    border: 5px solid #E07FAA;
-    background: #333333; 
-
-
+    width: 900px;    
+     overflow: auto; 
+   
 }
 
 
+.leo {
+    background: black;
+position:left;
+width:400px;
+float:left;
+margin-bottom: 20px;
+margin-left: 20px;
 
 
+}
+.leo img {
+    transition:transform 0.25s ease;
+}
 
-/*
+.leo img:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(3);
+}
 
-/* tri slike (use 25% for four, and 50% for two, etc) */
+.debeli{
+    background: white;
+    position: center;
+    width: 400px;
+    margin: 0 auto;
+}
+.debeli img {
+    transition:transform 0.25s ease;
+}
 
+.debeli img:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(3);
 
-/* end tri slike */
+}
 
-ul{
+.ul{
     list-style: none;
     padding: 0;
     margin: 0;
 
 }
-a{
+.a{
     background*color: #7385EB;
     color: pink;
     text-decoration: none;
 }
-a:hover{
+.a:hover{
     background-color: #2A315E;
 }
-footer{
+.footer{
   position: relative;
-  left: 0;
-  bottom: 0;
+  padding: auto;
   width: 100%;
   background-color: black;
   color: white;
@@ -138,8 +163,31 @@ footer{
   border: 5px, black;
   font-family: 'Poppins', sans-serif;
   font-size: 11px;
+  clear:both;
+  margin: 0 auto;
+   overflow: auto; 
 }
 
+.* {
+  margin: 0;
+}
+
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 152px; 
+}
+.site-footer {
+  background: black;
+}
 
 .fa {
  padding: 20px;
@@ -152,7 +200,8 @@ footer{
 
 /* Add a hover effect if you want */
 .fa:hover {
-  opacity: 0.7;
+
+  opacity: 0.9;
 }
 
 
