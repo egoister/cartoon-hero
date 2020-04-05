@@ -39,7 +39,7 @@ header{
      overflow: auto; 
      border-bottom: 1px solid #000;
     border: 3px solid #pink;
-
+display: :inline;
     }
 
 .header span { 
@@ -47,6 +47,43 @@ header{
   float: right;
 
 }
+
+
+
+/* pozadina navig */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* linkovi u navig*/
+.topnav a {
+  float: right;
+  color: pink;
+  text-align: center;
+  padding: 9px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* link na hover */
+.topnav a:hover {
+  background-color: pink;
+  color: black;
+}
+
+/* trenutna boja linka*/
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+
+
 
 .header img{
     width: 150px; 
@@ -66,13 +103,13 @@ header{
     font-size:30px;
     color:#FFFFFF; }
 
-}
 
 
 .h3{
      background:#000000; 
     font-size: 10px;  
-    text-transform: uppercase;  color: white;
+    text-transform: uppercase ;  
+    color: white;
     padding: 2px;  
     font-weight: bold;  
     text-align: center;  
@@ -98,7 +135,8 @@ header{
     background: #pink; 
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
-    width: 900px;    
+    width: 900px;  
+    height: 900px;  
      overflow: auto; 
    
 }
@@ -146,7 +184,7 @@ margin-left: 20px;
 
 }
 .a{
-    background*color: #7385EB;
+    background*color: black;
     color: pink;
     text-decoration: none;
 }
@@ -203,9 +241,4 @@ margin-left: 20px;
 
   opacity: 0.9;
 }
-
-
-   
-
-
 
